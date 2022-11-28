@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Commands I ran:
+
+`npx create-react-app@5.0.1 prosemirror-dev-toolkit-tiptap-test --template tiptap`
+`npm install prosemirror-dev-toolkit`
+`npm start`
+
+Then I edited Tiptap.jsx to add an "s" after "World". This worked fine.
+
+Then I ran `applyDevTools()` in a useEffect in the TipTap component. This worked fine.
+
+Then I removed the "s" from "Worlds". This caused a console error and the message no longer printed in the browser.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
